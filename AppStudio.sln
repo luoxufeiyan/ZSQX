@@ -1,0 +1,74 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppStudio", "AppStudio", "{EDF39F61-08B1-46E1-86D2-90E0B6FAC977}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AppStudio.Shared", "AppStudio.Shared\AppStudio.Shared.shproj", "{EB508905-B5E6-4FA7-BE6C-AA763B3E55CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStudio.Windows", "AppStudio.Windows\AppStudio.Windows.csproj", "{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStudio.WindowsPhone", "AppStudio.WindowsPhone\AppStudio.WindowsPhone.csproj", "{C9422315-27EC-44E7-B720-28E77BF6B65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStudio.Data", "AppStudio.Data\AppStudio.Data.csproj", "{02A59747-8AFE-4542-9676-8392CA4AAA43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{819E8F42-291A-4D0C-9625-159D4C9BE2C3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{7A67FD62-72AC-429F-9224-75A83DD2534F}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\AppStudio.Common.dll = Lib\AppStudio.Common.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|ARM.Build.0 = Debug|ARM
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|x64.ActiveCfg = Debug|x64
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|x64.Build.0 = Debug|x64
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|x64.Deploy.0 = Debug|x64
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|x86.ActiveCfg = Debug|x86
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|x86.Build.0 = Debug|x86
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Debug|x86.Deploy.0 = Debug|x86
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|ARM.ActiveCfg = Release|ARM
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|ARM.Build.0 = Release|ARM
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|ARM.Deploy.0 = Release|ARM
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|x64.ActiveCfg = Release|x64
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|x64.Build.0 = Release|x64
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|x64.Deploy.0 = Release|x64
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|x86.ActiveCfg = Release|x86
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|x86.Build.0 = Release|x86
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB508905-B5E6-4FA7-BE6C-AA763B3E55CF} = {EDF39F61-08B1-46E1-86D2-90E0B6FAC977}
+		{DBB0000E-BCBA-48BD-98E6-628DA6271DDB} = {EDF39F61-08B1-46E1-86D2-90E0B6FAC977}
+		{C9422315-27EC-44E7-B720-28E77BF6B65D} = {EDF39F61-08B1-46E1-86D2-90E0B6FAC977}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+	EndGlobalSection
+EndGlobal
