@@ -8,5 +8,5 @@ A Windows-Phone client for my blog(http://www.luoxufeiyan.com).
 # develop
 Visual Studio && App studio
 
-#license
+# license
 MIT
